@@ -59,10 +59,10 @@ CRC calculator written in Dart supporting 50+ different CRC8, CRC16, CRC32 and C
 
 ### CRC64
 
-* CRC64_ECMA_182
-* CRC64_GO_ISO
-* CRC64_WE
-* CRC64_XZ
+* ECMA_182
+* GO_ISO
+* WE
+* XZ
 
 ## Getting started
 

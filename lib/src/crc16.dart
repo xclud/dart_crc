@@ -1,4 +1,4 @@
-import 'dart:typed_data';
+part of crc;
 
 const xmodem = XModem._();
 const ccitt = CCITT._();
@@ -14,7 +14,7 @@ class XModem extends CRC16 {
 
   @override
   int calculate(Uint8List input) {
-    throw UnimplementedError();
+    return _xmodem(input);
   }
 }
 
@@ -23,6 +23,6 @@ class CCITT extends CRC16 {
 
   @override
   int calculate(Uint8List input) {
-    throw UnimplementedError();
+    return _ccitt(input);
   }
 }
